@@ -1,8 +1,7 @@
 # Picaestro  
-당신의 Playlist를 하나의 작품으로.  
+Make your playlist into one piece!  
+TEAM 조근소근  
   
-\#WebCrawling 
-
-@조한희
-@김문곤
-@손은영 
+조한희 @seawavve  
+김문곤 @kim-mun-gon  
+손은영 @enyng309  
