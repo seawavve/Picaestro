@@ -13,22 +13,24 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 url = "https://www.genie.co.kr/detail/songInfo?xgnm=81302362"
 print(url)
 html = requests.get(url, headers = headers) ##requests 를 이용해서 url의 html 파일을 가져옴
-#html.encoding
 print(html)
 soup = BeautifulSoup(html.text, "html.parser") ##가져온 html 파일을 html parser를 통해서 정리
 
 # soup 사용 (https://m.blog.naver.com/kiddwannabe/221177292446)
+# 음악제목 가져오기
 html_music_title = soup.find("h2", {"class":"name"}).text
 print(html_music_title.strip())
 music_title.append(html_music_title.strip())
 print(music_title)
 
+# 음악장르 가져오기
 html_genre = soup.select('#body-content > div.song-main-infos > div.info-zone > ul > li')[0].findAll("span", {"class":"value"})
 html_genre = html_genre[2]
 korean = re.compile('[^ \u3131-\u3163\uac00-\ud7a3]+') # 정규식을 사용하여 한글만 가져오기 (https://jokergt.tistory.com/52)
 genre_list.append(korean.sub('', str(html_genre)))
 print(genre_list)
 
+# 가사 가져오기
 html_lyric = soup.select('#pLyrics')[0].find("p").text
 html_lyric = html_lyric.replace("\n", " ").strip()
 html_lyric = html_lyric.replace("\r", "").strip()
