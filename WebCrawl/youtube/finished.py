@@ -57,7 +57,7 @@ driver.find_element_by_xpath('//paper-listbox[@class="dropdown-content style-sco
 
 
 #스크롤내리며 댓글 크롤링
-num_page_down =10000
+num_page_down =300
 while num_page_down:
     body.send_keys(Keys.PAGE_DOWN)
     time.sleep(1.5)
