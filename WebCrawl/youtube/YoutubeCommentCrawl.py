@@ -88,7 +88,7 @@ def get_comment(search_word):
     comment_data.index = range(len(comment_data))
 
     display(comment_data)
-    csv_name='comment_'+search_word+'.csv'
+    csv_name='youtube_comment_'+search_word+'.csv'
     comment_data.to_csv(csv_name, mode='w',encoding='utf-8')
     
 search_words=['벚꽃엔딩','나만,봄','꽃송이가']
