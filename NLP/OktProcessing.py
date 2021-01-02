@@ -13,7 +13,7 @@ data['processed_comment']=None
 def processing(data):
     for i in range(len(data)):
         text=data.loc[i,'comment']
-        text_list=okt.pos(text)
+        text_list=okt.pos(text,norm=True,stem=True)
         keywords=[]
         for j in range(len(text_list)):
             if text_list[j][1]=='Noun' or text_list[j][1]=='Verb' or text_list[j][1]=='Adjective':
