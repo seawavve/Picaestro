@@ -67,4 +67,4 @@ data = pd.DataFrame({'melon_id': melon_id,
                      'melon_comment': melon_comment})
 data.columns = ['melon_id', '댓글']
 data.head()
-data.to_csv('comment_벚꽃엔딩.csv', mode='w', encoding='utf-8')
+data.to_csv('melon_comment_벚꽃엔딩.csv', mode='w', encoding='utf-8')
