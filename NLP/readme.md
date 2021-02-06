@@ -11,3 +11,12 @@
 Keyword추출의 다양한 방법을 시도하고 있습니다.  
 -DTM(Document-Term Matrix) 구현  
 -TF-IDF(termFrequent - InverseDocumentFrequent) tutorial 구현  
+  
+ 꽃송이가 외 2곡을 이용하여 봄이라는 키워드를 얻기위해 small data로 구현하고 있는 지금은 DTM이 더 유용하겠지만,  
+ 플레이리스트가 훨씬 다양해진다면 각 도큐먼트의 특징을 잘 파악하는 TF-IDF방법이 더 효과적일거라 예상합니다.  
+
+DTM방식으로 한번 결과값을 뽑은다음 불용어를 파악하여 이를  TF-IDF에 적용시킨다면 좋은 solution이 되겠습니다.  
+  
+  
+  우선 다양한 키워드 추출방식을 시도하고 체화한다는 점에 의의를 두고 있습니다.  
+  
