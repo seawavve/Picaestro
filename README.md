@@ -7,6 +7,7 @@ TEAM 조근소근
 조한희 @seawavve  
  + 유튜브 댓글 크롤링  
  + NLP 한글 데이터 전처리 
+ + keyword추출(DTM,TF-IDF)  
    
 김문곤 @kim-mun-gon  
  + 멜론 댓글 크롤링  
