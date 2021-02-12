@@ -1,6 +1,7 @@
 # Picaestro  
 Make your playlist into one piece!  
 TEAM 조곤소곤  
+#WebCrawling #NLP
   
   <img src="https://github.com/seawavve/Picaestro/blob/main/Methodology.jpg">  
   
