@@ -1,6 +1,6 @@
 # Picaestro  
 Make your playlist into one piece!  
-TEAM 조근소근  
+TEAM 조곤소곤  
   
   <img src="https://github.com/seawavve/Picaestro/blob/main/Methodology.jpg">  
   
