@@ -14,6 +14,7 @@ TEAM 조곤소곤
    
 김문곤 @kim-mun-gon  
  + 멜론 댓글 크롤링  
+ + keyword WordCloud 생성  
    
 손은영 @enyng309  
  + 벅스,지니 댓글 크롤링
