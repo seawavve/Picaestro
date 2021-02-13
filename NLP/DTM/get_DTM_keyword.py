@@ -1,3 +1,5 @@
+#원파일명은 keyword_frequency.py
+
 import pandas as pd
 from collections import defaultdict
 from collections import Counter
