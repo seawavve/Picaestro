@@ -48,6 +48,9 @@ page_url = "https://www.melon.com/song/detail.htm?songId=" + str(number)
 result = requests.get(page_url, headers=headers)
 broswer.get(page_url)
 time.sleep(2)
+
+
+title= broswer.find_elements_by_xpath('//div[@class="song_name"]')[0].text
 body = broswer.find_element_by_tag_name('body')
 body.send_keys(Keys.PAGE_DOWN)
 time.sleep(1.5)
@@ -55,8 +58,7 @@ Input = broswer.find_elements_by_xpath('//button[@class="button_more arrow_d"]')
 Input.click()
 
 lyric=broswer.find_element_by_class_name("lyric").text
-print(lyric)
 
-f = open("lyric.txt", 'w',encoding='utf-8')
+f = open(str(title)+"_lyric.txt", 'w',encoding='utf-8')
 f.write(lyric)
 f.close()
