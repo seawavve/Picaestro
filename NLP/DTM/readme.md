@@ -18,7 +18,7 @@ Document Term Matrix
   
   
   
-2021.02.19 update
+2021.02.19 update  
 directory를 lric과 non_lyric으로 나눴습니다.   
 non_lyric은 가사를 데이터에 추가하지 않은 코드.  
 lyric은 추가한 코드입니다.  
