@@ -15,3 +15,11 @@ Document Term Matrix
   가사는 특별히 3을 곱하는 가중치를 넣었습니다.  
   테스트결과 이전보다 더 키워드가 잘 출력됩니다.  
   ![](https://github.com/seawavve/Picaestro/blob/main/NLP/DTM/%EB%B2%9A%EA%BD%83%EC%97%94%EB%94%A9.png)
+  
+  
+  
+2021.02.19 update
+directory를 lric과 non_lyric으로 나눴습니다.   
+non_lyric은 가사를 데이터에 추가하지 않은 코드.  
+lyric은 추가한 코드입니다.  
+lyric directory를 보시길 권장합니다.  
