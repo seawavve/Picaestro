@@ -10,7 +10,7 @@ TEAM 조곤소곤
 조한희 @seawavve  
  + 유튜브 댓글 크롤링  
  + NLP 한글 데이터 전처리 
- + keyword추출(DTM,TF-IDF) 
+ + keyword추출(DTM,TF-IDF,BERT) 
  + melon 가사 크롤링
    
 김문곤 @kim-mun-gon  
