@@ -36,3 +36,9 @@ keywords = [candidates[index] for index in distances.argsort()[0][-top_n:]]
 keywords.reverse() #연관성 높은순
 
 print(keywords)
+
+
+"""
+keywords: ['kittens', 'cats', 'kitten', 'cat', 'sister']
+Pets 카테고리에 맞는 키워드를 잘 검출하고 있음을 확인했습니다.
+"""
