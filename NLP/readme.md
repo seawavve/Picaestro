@@ -27,7 +27,7 @@ DTM방식으로 한번 결과값을 뽑은다음 불용어를 파악하여 이�
     
       
 2021.02.13   
-<span style="color:yellow">TF-IDF directory 참조바람</span>    
+**TF-IDF directory**     
 TF-IDF 구현했습니다.  
 방탄, 아미, 개념과 같은 키워드들은 음악의 음악성 외적인 키워드로 우리가 원하던 값과는 다른 방향의 키워드가 잡혀  
 TF-IDF방법은 맞지 않다고 판단했습니다.  
@@ -36,7 +36,7 @@ TF-IDF방법은 맞지 않다고 판단했습니다.
 
   
 2021.02.14  
-<span style="color:yellow">DTM directory 참조바람</span>   
+**DTM directory**  
 DTM 구현했습니다.   
 봄, 벚꽃 등 원하던 결과값에 잘 대응함을 확인했습니다.  
   
@@ -46,7 +46,7 @@ melon에서 가사를 크롤링하는 부분까지 구현했습니다.
 
  
 2021.02.23  
-<span style="color:yellow">BERT directory 참조바람</span>   
+**BERT directory**  
 keyword추출결과 중 '그렇다','오다'와 같은 의미없는 키워드가 추출되는 게 썩 맘에 들지 않아 보완하게 됐습니다.  
 BERT모델을 사용하면 각 단어를 임베딩하여 단어간의 연관성을 계산하여 반환합니다.  
 위 모델을 사용하면 하나의 분위기에 통일된 키워드를 얻을 수 있을거란 희망이 생깁니다.  
