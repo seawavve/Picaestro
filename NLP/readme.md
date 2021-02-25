@@ -1,6 +1,6 @@
 # PATCH NOTE
   
-  #BERT #DTM #TF-IDF #WordCloud
+  #BERT #DTM #TF-IDF #WordCloud #GoogleTranslationAPI
   
 2021.01.02   
 + `CSV_Processing.py` KoNLPy 형태소 분석기로 키워드 추출   
@@ -53,3 +53,9 @@ keyword추출결과 중 '그렇다','오다'와 같은 의미없는 키워드가
 BERT모델을 사용하면 각 단어를 임베딩하여 단어간의 연관성을 계산하여 반환합니다.  
 위 모델을 사용하면 하나의 분위기에 통일된 키워드를 얻을 수 있을거란 희망이 생깁니다.  
 keyword extraction tutorial Using distilBERT를 업로드합니다.  
+
+  
+  
+2021.02.25
+BERT에 한글 데이터를 적용시킬 수 없어 translation으로 영어로 바꾼 후 진행하기로 결정했습니다.
+Google translation API를 사용합니다.
